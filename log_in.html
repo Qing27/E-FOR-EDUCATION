@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>E FOR Education</title>
+    <link rel="stylesheet" href="css/mystyle.css">
+    <link rel="icon" href="images/favicon.png">
+</head>
+
+<body vlink="#fff" alink="#fff" link="#fff" leftmargin="0" topmargin="0" rightmargin="0" bottommargin="0">
+    <table bgcolor="rgba(73,155,234,1)" height="4%" width="100%">
+        <tr></tr>
+    </table>
+    <table bgcolor="green" height="100px" width="100%">
+        <tr>
+            <td width="57%">
+                <font color="#fff" size="6" face="'Poppins', sans-serif">
+                    <b>
+							&nbsp;&nbsp;E FOR EDUCATION
+						</b>
+                </font>
+            </td> 
+            <td class="topnav">
+                <a class="active" href="log_in.html">LOGIN</a>
+                <a href="sign_up.html">SIGN UP</a>
+                <a href="contact.html">CONTACT</a>
+                <a href="how_to.html">HOW TO</a>
+                <a href="about.html">ABOUT</a>
+                <a href="index.html">HOME</a>
+                <input type="text" placeholder="Search..">
+            </td>
+        </tr>
+    </table>
+    <table bgcolor="#fffacd">
+        <tr>
+            <th>
+                <img src="images/banner.png" align='center' width="70%" height="30%" alt="HOME" title="HOME">
+            </th>
+        </tr>
+    </table>
+    <p></p>
+    <br />
+    <br />
+            <div class="login-page">
+                <div class="form">
+              
+                  <form>
+                    <input type="text" placeholder="&#xf007;  username"/>
+                    <input type="password" id="password" placeholder="&#xf023;  password"/>
+                    <i class="fas fa-eye" onclick="show()"></i> 
+                    <br>
+                    <br>
+                    <button>LOGIN</button>
+                    <p class="message"></p>
+                  </form>
+              
+                  <form class="login-form">
+                    <button type="button" onclick="window.location.href='sign_up.html'">SIGN UP</button>
+                  </form>
+                </div>
+              </div>
+              
+                <script>
+                  function show(){
+                    var password = document.getElementById("password");
+                    var icon = document.querySelector(".fas")
+              
+                    if(password.type === "password"){
+                      password.type = "text";
+                    }
+                    else {
+                      password.type = "password";
+                    }
+                  };
+                </script>
+                <a href="#" class="to-top">
+                    <i class="fa-regular far-chevron-up" alt="Back To Top"></i>
+                    <i class=""></i>
+                  </a>
+                  <script src="javascript/main.js"></script>
+              </body>
+              </html>
+
+           
